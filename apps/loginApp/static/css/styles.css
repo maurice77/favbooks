@@ -1,0 +1,144 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: white;
+    margin-top:60px;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-top: 10px;
+}
+.title{
+    font-size: 1.4em;
+    font-weight: 700;
+    height: 70px;
+    color: green;
+}
+
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid slategray;
+    z-index: 1000;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+}
+
+.mg-bot-40{
+    margin-bottom:40px;
+}
+
+.blurred-link{
+    color:lightskyblue;
+    font-weight: 300;
+    font-size: smaller;
+}
+
+.nav-item:nth-child(1){
+    margin-top: 6px;
+}
+
+.list-book li{
+    list-style-type:none;
+}
+.list-book li:nth-child(1){
+    font-weight: 600;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bordered{
+    border: 1px solid green;
+    height: 60px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.mg-top-10{
+    margin-top: 10px;
+}
+
+.bodywidth70{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bodypadding10{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.bodypadding5{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bodypadding3{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.mg-top--70{
+    margin-top: -70px;
+}
+
+.bg-grad{
+    background: radial-gradient(circle, rgba(211,240,172,1) 13%, rgba(251,252,249,1) 100%);
+}
+
+.go-back{
+    position:absolute;
+    top:80px;
+    right:10%;
+}
+
+.warning{
+    color: darkgoldenrod;
+    background-color: rgb(242, 242, 180);
+}
+.error{
+    color: red;
+    background-color: rgb(243, 208, 213);
+}
+.success{
+    color: green;
+    background-color: rgb(206, 241, 206);
+}
+.warning, .error, .success{
+    border-radius: 8px;
+    padding: 10px;
+    width: 60%;
+    margin-top:5px;
+    margin-bottom:5px;
+    list-style-type: none;
+}
+
+.mg-auto{
+    margin-left: auto;
+}
+
+.enlarged{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .bodywidth70 {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+  }
