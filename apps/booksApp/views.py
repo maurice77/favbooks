@@ -82,6 +82,8 @@ def viewEditBook(request, id_book):
     else:
         tipo = "view"
 
+    print(f"tipo: {tipo} id_added_by:{book.added_by.id} id_user:{request.session['id']}")
+
     context = {
         'tipo' : tipo,
         'book' : book,

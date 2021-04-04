@@ -6,12 +6,13 @@
 
 html{
     background-color: white;
-    margin-top:60px;
+    margin-top:80px;
     margin-bottom: 20px;
 }
 
 h3{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .title{
     font-size: 1.4em;
@@ -24,18 +25,22 @@ h3{
     position: fixed;
     top: 0px;
     left: 0px;
-    height: 50px;
+    height: 70px;
     width: 100%;
     border-bottom: 1px solid slategray;
     z-index: 1000;
     background-color: white;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .mg-bot-40{
     margin-bottom:40px;
+}
+
+.mgt-1{
+    margin-top: 10px;
 }
 
 .blurred-link{

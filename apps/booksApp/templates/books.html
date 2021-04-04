@@ -14,7 +14,7 @@
 </head>
 <body class="bodypadding3">
 
-    <ul class="nav">
+    <ul class="nav bg-grad">
         <li class="nav-item enlarged">Welcome {{ user.first_name }}</li>
         <li class="nav-item mg-auto"><a class="nav-link" href="{% url 'signout' %}">Log Out</a></li>
     </ul>
@@ -45,6 +45,8 @@
                     <label for="description">Description...</label>
                 </div>
         
+                <input type="hidden" name="tipo" value="{{ tipo }}">
+
                 <div class="row mgt-1">
                     <div class="col-10">
                         <button id="btn-submit" class="btn btn-primary">Add</button>
